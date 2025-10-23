@@ -4,7 +4,7 @@ import pandas as pd
 st.title("My Data Visualization Dashboard 📊")
 
 # Read the CSV file directly (make sure it's in the same folder)
-df = pd.read_csv("us-population-2010-2019 (1)")
+df = pd.read_csv("data.csv")
 
 st.subheader("Data Preview")
 st.write(df.head())
